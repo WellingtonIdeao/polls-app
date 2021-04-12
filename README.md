@@ -1,1 +1,1 @@
-# First Django app
+# Polls-app
