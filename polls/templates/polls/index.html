@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <title>Polls index</title>
+        <link rel="stylesheet" href="{% static 'polls/css/style.css' %}">
     </head>
     <body>
         {% if latest_question_list %}
